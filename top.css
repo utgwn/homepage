@@ -139,3 +139,49 @@ img#logo{
   margin-left: auto;
   margin-right: auto;
 }
+
+
+
+div#btns{
+  width: 300px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.maruBtn {
+    font-size: 40px;
+    font-weight:bold;
+    width: 60px;
+    height: 38px;
+    background: #ff00bf;
+    border: 1px solid #ff0000;
+    border-radius: 70px;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    color: #420075;
+    -moz-box-shadow: inset -7px -7px 7px #ff0000,inset 7px 7px 7px #ffffff;
+    -webkit-box-shadow: inset -7px -7px 7px #ff0000,inset 7px 7px 7px #ffffff;
+    padding: 0px 10px 60px;
+    margin: 0 5px;
+}
+
+.maruBtn:active{
+  background:#faff00;
+  color: #ff00ed;
+  -moz-box-shadow: inset -7px -7px 7px #00ffff,inset 7px 7px 7px #ffffff;
+  -webkit-box-shadow: inset -7px -7px 7px #00ffff,inset 7px 7px 7px #ffffff;
+}
+
+@-webkit-keyframes blink{
+    0% {color: #0dff00;}
+    100% {color: #ff00de;}
+}
+@-moz-keyframes blink{
+    0% {color: #0dff00;}
+    100% {color: #ff00de;}
+}
+@keyframes blink{
+    0% {color: #0dff00;}
+    100% {color: #ff00de;}
+}
