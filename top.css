@@ -156,8 +156,8 @@ div#btns{
     -moz-border-radius: 10px;
     -webkit-border-radius: 70px;
     color: #420075;
-    -moz-box-shadow: inset -1px -1px 1px #ff0000,inset 1px 1px 1px #ffffff;
-    -webkit-box-shadow: inset -7px -7px 7px #ff0000,inset 7px 7px 7px #ffffff;
+    -moz-box-shadow: inset -7px -7px 7px #ff0000,inset 7px 7px 7px #ffffff;
+    -webkit-box-shadow: inset -1px -1px 1px #ff0000,inset 1px 1px 1px #ffffff;
     padding: 0px 10px 60px;
     margin: 10px auto;
     /*margin: 0 5px;*/
