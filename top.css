@@ -152,7 +152,7 @@ div#btns{
     height: 60px;
     background: #ff00bf;
     border: 1px solid #ff0000;
-    border-radius: 70px;
+    border-radius: 10px;
     -moz-border-radius: 70px;
     -webkit-border-radius: 70px;
     color: #420075;
