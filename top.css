@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-size: 0.95em;
+    background-image: url("./piramid.png");
+    /*background-color: #000761;*/
+    background-size: 200px 200px;
+}
+
+.top_bg {
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 0.95em;
+  /*background-image: url("./piramid.png");*/
+  background-size: 200px 200px;
+  -webkit-animation:top_bg 1.0s ease-in-out infinite alternate;
+  -moz-animation:top_bg 1.0s ease-in-out infinite alternate;
+  animation:top_bg 1.0s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes top_bg{
+  0% {background-image: url("./piramid.png");}
+  100% {background-image: url("./piramid8.png");}
+}
+@-moz-keyframes top_bg{
+  0% {background-image: url("./piramid.png");}
+  100% {background-image: url("./piramid8.png");}
+}
+@keyframes top_bg{
+  0% {background-image: url("./piramid.png");}
+  100% {background-image: url("./piramid8.png");}
+}
+
+h1 {
+    margin: 10px 0;
+    padding: 0;
+    color: #00a3ff;
+    font-family: inherit;
+    font-size: 50px;
+    text-align: center;
+}
+
+.title {
+  -webkit-animation:title_blink 1.0s ease-in-out infinite alternate;
+  -moz-animation:title_blink 1.0s ease-in-out infinite alternate;
+  animation:title_blink 1.0s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes title_blink{
+    0% {color: #0dff00;}
+    100% {color: #ffffff;}
+}
+@-moz-keyframes title_blink{
+    0% {color: #0dff00;}
+    100% {color: #ffffff;}
+}
+@keyframes title_blink{
+    0% {color: #0dff00;}
+    100% {color: #ffffff;}
+}
+
+.result {
+  -webkit-animation:result_blink 0.1s ease-in-out infinite alternate;
+  -moz-animation:result_blink 0.1s ease-in-out infinite alternate;
+  animation:result_blink 0.1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes result_blink{
+    0% {color: #0dff00;}
+    100% {color: #9e00ff;}
+}
+@-moz-keyframes result_blink{
+    0% {color: #0dff00;}
+    100% {color: #9e00ff;}
+}
+@keyframes result_blink{
+    0% {color: #0dff00;}
+    100% {color: #9e00ff;}
+}
+
+h2 {
+    color: #69ff00;
+    font-weight: bold;
+    padding: 4px 0 1px 8px;
+        margin: 0;
+    font-size: 1.2em;
+        background-color: #000000;
+}
+
+h3 {
+    color: #00f0ff;
+    font-weight: normal;
+    padding: 3px 0 1px 8px;
+    margin: 0;
+    font-size: 1.1em;
+        background-color: #343434;
+}
+
+.article {
+    width: 60%;
+    margin: 0 auto 15px auto;
+    padding: 0 0 12px 0;
+    background-color: #69ff00;
+}
+
+.comment {
+    margin: 10px 20px;
+    padding: 0 0 12px 0;
+    background-color: #00f0ff;
+}
+
+.comment_link {
+    text-align: right;
+}
+
+.article_link {
+    width: 60%;
+    margin: auto;
+    text-align: right;
+}
+
+p,form {
+   color: #9e00ff;
+   margin: 12px 5%;
+   line-height: 1.4em;
+}
+
+.login {
+    width: 60%;
+    margin: auto;
+    text-align: right;
+}
+
+img#logo{
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
