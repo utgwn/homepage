@@ -96,35 +96,6 @@ h3 {
         background-color: #343434;
 }
 
-.article {
-    width: 60%;
-    margin: 0 auto 15px auto;
-    padding: 0 0 12px 0;
-    background-color: #69ff00;
-}
-
-.comment {
-    margin: 10px 20px;
-    padding: 0 0 12px 0;
-    background-color: #00f0ff;
-}
-
-.comment_link {
-    text-align: right;
-}
-
-.article_link {
-    width: 60%;
-    margin: auto;
-    text-align: right;
-}
-
-/*p,form {
-   color: #9e00ff;
-   margin: 12px 5%;
-   line-height: 1.4em;
-}*/
-
 div#menu{
   color: #9e00ff;
   padding-top: 50%;
@@ -178,17 +149,4 @@ div#btns{
   color: #ff00ed;
   -moz-box-shadow: inset -7px -7px 7px #00ffff,inset 7px 7px 7px #ffffff;
   -webkit-box-shadow: inset -7px -7px 7px #00ffff,inset 7px 7px 7px #ffffff;
-}
-
-@-webkit-keyframes blink{
-    0% {color: #0dff00;}
-    100% {color: #ff00de;}
-}
-@-moz-keyframes blink{
-    0% {color: #0dff00;}
-    100% {color: #ff00de;}
-}
-@keyframes blink{
-    0% {color: #0dff00;}
-    100% {color: #ff00de;}
 }
