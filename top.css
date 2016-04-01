@@ -125,6 +125,12 @@ h3 {
    line-height: 1.4em;
 }*/
 
+div#menu{
+  color: #9e00ff;
+  padding-top: 100%;
+  text-align: center;
+}
+
 .login {
     width: 60%;
     margin: auto;
