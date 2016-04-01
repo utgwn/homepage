@@ -40,25 +40,6 @@ h1 {
     text-align: center;
 }
 
-.title {
-  -webkit-animation:title_blink 1.0s ease-in-out infinite alternate;
-  -moz-animation:title_blink 1.0s ease-in-out infinite alternate;
-  animation:title_blink 1.0s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes title_blink{
-    0% {color: #0dff00;}
-    100% {color: #ffffff;}
-}
-@-moz-keyframes title_blink{
-    0% {color: #0dff00;}
-    100% {color: #ffffff;}
-}
-@keyframes title_blink{
-    0% {color: #0dff00;}
-    100% {color: #ffffff;}
-}
-
 .result {
   -webkit-animation:result_blink 0.1s ease-in-out infinite alternate;
   -moz-animation:result_blink 0.1s ease-in-out infinite alternate;
@@ -78,35 +59,11 @@ h1 {
     100% {color: #9e00ff;}
 }
 
-h2 {
-    color: #69ff00;
-    font-weight: bold;
-    padding: 4px 0 1px 8px;
-        margin: 0;
-    font-size: 1.2em;
-        background-color: #000000;
-}
-
-h3 {
-    color: #00f0ff;
-    font-weight: normal;
-    padding: 3px 0 1px 8px;
-    margin: 0;
-    font-size: 1.1em;
-        background-color: #343434;
-}
-
 div#menu{
   color: #9e00ff;
   padding-top: 50%;
   text-align: center;
   font-size: 150%;
-}
-
-.login {
-    width: 60%;
-    margin: auto;
-    text-align: right;
 }
 
 img#logo{
