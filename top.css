@@ -3,8 +3,8 @@
 body {
     font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     font-size: 0.95em;
-    /*background-image: url("./piramid.png");*/
-    background-color: #000761;
+    background-image: url("./piramid.png");
+    /*background-color: #000761;*/
     background-size: 200px 200px;
 }
 
