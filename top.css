@@ -119,11 +119,11 @@ h3 {
     text-align: right;
 }
 
-p,form {
+/*p,form {
    color: #9e00ff;
    margin: 12px 5%;
    line-height: 1.4em;
-}
+}*/
 
 .login {
     width: 60%;
