@@ -131,8 +131,10 @@ p,form {
     text-align: right;
 }
 
-img#utagawa_logo{
+img#logo{
   width: 100%;
+  position: absolute;
+  z-index: 0;
   display: block;
   margin-left: auto;
   margin-right: auto;
