@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-size: 0.95em;
+    /*background-image: url("./piramid.png");*/
+    background-color: #000000;
+    background-size: 200px 200px;
+}
+
+h1 {
+    margin: 10px 0;
+    padding: 0;
+    color: #00a3ff;
+    font-family: inherit;
+    font-size: 50px;
+    text-align: center;
+}
+
+div#menu{
+  color: #9e00ff;
+  padding-top: 50%;
+  text-align: center;
+  font-size: 150%;
+}
+
+img#tatenaga{
+  width: 30vw;
+}
+img#yokonaga{
+  width: 45vw;
+}
+img#seihoukei{
+  width: 30vw;
+}
+
+
+div#btns{
+  padding-top: 50vw;
+  width: 300px;
+  /*margin-top: 0;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#Bbtns{
+  width: 100px;
+  /*margin-top: 0;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.maruBtn {
+    font-size: 40px;
+    font-weight: bold;
+    width: 400px;
+    height: 60px;
+    background: #ff00bf;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 70px;
+    color: #420075;
+    -moz-box-shadow: inset -7px -7px 7px #ff0000,inset 7px 7px 7px #ffffff;
+    -webkit-box-shadow: inset -7px -7px 7px #ff0000,inset 7px 7px 7px #ffffff;
+    /*padding: 0px 0px;*/
+    margin: 10px auto;
+    /*margin: 0 5px;*/
+}
+
+.maruBtn:active{
+  background:#faff00;
+  color: #ff00ed;
+  -moz-box-shadow: inset -7px -7px 7px #00ffff,inset 7px 7px 7px #ffffff;
+  -webkit-box-shadow: inset -7px -7px 7px #00ffff,inset 7px 7px 7px #ffffff;
+}
+
+.modoruBtn{
+    font-size: 30px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    background: #faff00;
+    border: 1px solid #00ffff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 70px;
+    color: #ff00ed;
+    -moz-box-shadow: inset -7px -7px 7px #00ffff,inset 7px 7px 7px #ffffff;
+    -webkit-box-shadow: inset -7px -7px 7px #00ffff,inset 7px 7px 7px #ffffff;
+    /*padding: 0px 0px;*/
+    margin: 10px auto;
+    /*margin: 0 5px;*/
+}
