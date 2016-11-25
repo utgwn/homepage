@@ -30,7 +30,7 @@ h1.shadow {
 		5px -5px 5px #0dff00,
 		-5px 5px 5px #ff00de,
 		5px 5px 5px #0dff00;
-  width: 560px;
+  width: 600px;
   margin-left: auto;
   margin-right: auto;
   -webkit-animation:blink 1.0s ease-in-out infinite alternate;
