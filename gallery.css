@@ -26,21 +26,26 @@ h2 {
     text-align: center;
 }
 
+div.thumbnail {
+  width: 100%;
+  margin: 0px;
+}
+div.thumbnail ul {
+  list-style: none;
+  width: 100%;
+}
+div.thumbnail li {
+  float: left;
+}
+div.thumbnail li img {
+  vertical-align: bottom;
+}
+
 div#menu{
   color: #9e00ff;
   padding-top: 50%;
   text-align: center;
   font-size: 150%;
-}
-
-img#tatenaga{
-  width: 30vw;
-}
-img#yokonaga{
-  width: 45vw;
-}
-img#seihoukei{
-  width: 30vw;
 }
 
 div#Bbtns{
@@ -52,7 +57,7 @@ div#Cbtns{
   text-align: center;
 }
 
-.modoruBtn{
+.modoruBtn {
   font-size: 30px;
   font-weight: bold;
   width: 200px;
@@ -70,7 +75,7 @@ div#Cbtns{
   /*margin: 0 5px;*/
 }
 
-.contentsBtn{
+.contentsBtn {
   font-size: 40px;
   font-weight: bold;
   width: 350px;
@@ -86,6 +91,6 @@ div#Cbtns{
   margin: 10px auto;
 }
 
-.twitter-tweet{
+.twitter-tweet {
   margin: 0px auto;
 }
