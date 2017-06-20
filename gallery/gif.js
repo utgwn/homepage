@@ -148,7 +148,6 @@ function create_menu_page() {
   var br = document.createElement('br');
   input.type = "button";
   input.classList.add('maruBtn');
-  // input.class = "maruBtn";
 
   var inputList = [];
   var brList = [];
