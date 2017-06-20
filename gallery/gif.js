@@ -23,6 +23,7 @@ var icon = [
   "output_3_16_50.gif",
   "output_10953451.gif",
   "output_1_51_58.gif",
+  "EOM1.gif",
   "output_19_2_32.gif",
   "output_b0_2_49_13.gif"
 ];
