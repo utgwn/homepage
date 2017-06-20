@@ -16,8 +16,8 @@ var images = [
   "hitsuji.png",
   "FMS_logo.png",
   "piramid.png",
-  "kingyo.png",
   "piramid8_1.png",
+  "kingyo.png",
   "saru.jpg",
   "suzuki_vj.png",
   "魚人.png",
@@ -28,7 +28,12 @@ var images = [
   "t3-01.png",
   "st_1.png",
   "sz_bure-01.png",
-  "s-1.png"
+  "s-1.png",
+  "practice2.png",
+  "nerve1.png",
+  "spook.png",
+  "star_man_blue.png",
+  "nenga_bird.png"
 ];
 
 function display_thumbnail() {
