@@ -2,6 +2,7 @@ var thumUrl = "./gallery_illust/thumbnail/";
 var imgUrl = "./gallery_illust/image/";
 var detUrl = "./illust_detail.html";
 var images = [
+  "train1.png",
   "3.png",
   "IMG_2583.jpg",
   "utyujin1_11.png",
