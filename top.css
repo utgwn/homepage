@@ -11,7 +11,6 @@ body {
 .top_bg {
   font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-size: 0.95em;
-  /*background-image: url("./piramid.png");*/
   background-size: 200px 200px;
   -webkit-animation:top_bg 1.0s ease-in-out infinite alternate;
   -moz-animation:top_bg 1.0s ease-in-out infinite alternate;
